@@ -1,6 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuBriefcase, LuBuilding, LuGraduationCap } from "react-icons/lu";
 import rayatigaImg from "@/public/rayatiga.png";
 import pawonkos799Img from "@/public/pawonkos799.png";
 import makglengcoffeeImg from "@/public/makglengcoffee.png";
@@ -38,7 +37,7 @@ export const experiencesData = [
     location: "Magelang, ID",
     description:
       "I am establishing an SME business (Rayatiga) that operates in the field of information technology, particularly specializing in web development.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuBriefcase),
     date: "2019 - present",
   },
   {
@@ -54,7 +53,7 @@ export const experiencesData = [
     location: "Yogyakarta, ID",
     description:
       "I worked as a web developer until present. I also upskilled to the full stack development.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuBuilding),
     date: "2023 - present",
   },
 ] as const;

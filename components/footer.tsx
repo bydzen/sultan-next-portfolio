@@ -7,9 +7,8 @@ export default function Footer() {
         &copy; 2023 Sultan Kautsar. All rights reserved.
       </small>
       <p className="text-xs">
-        <span className="font-semibold">About this website:</span> built with
-        React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
-        Framer Motion, React Email & Resend, Vercel hosting.
+        Built with React & Next.js (App Router & Server Actions), TypeScript,
+        Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting.
       </p>
     </footer>
   );
