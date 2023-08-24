@@ -5,7 +5,6 @@ import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
-import { Toaster } from "react-hot-toast";
 
 const inter = Space_Grotesk({ subsets: ["latin"] });
 
@@ -22,6 +21,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <head>
+        <meta name="title" content="Sultan Kautsar" />
+        <meta name="author" content="Sultan Kautsar" />
+        <meta
+          name="keywords"
+          content="Sultan Kautsar, Founder Rayatiga, sultankautsar.com, Sultan, Kautsar, Sultan K"
+        />
+        <meta
+          property="og:image"
+          content="https://cdn.rayatiga.com/img/sultan-kautsar-og.jpg"
+        />
+      </head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
@@ -33,8 +44,6 @@ export default function RootLayout({
             <Header />
             {children}
             <Footer />
-
-            <Toaster position="top-right" />
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>

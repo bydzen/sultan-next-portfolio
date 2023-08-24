@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import profileImg from "@/public/profile.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -31,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://avatars.githubusercontent.com/u/42274355?v=4"
+              src={profileImg}
               alt="Sultan Kautsar"
               width="192"
               height="192"
@@ -66,10 +67,11 @@ export default function Intro() {
         <Link href={"https://rayatiga.com/"} className="font-bold underline">
           Rayatiga
         </Link>
-        , with over <span className="font-bold">3 years</span> of cloud and web
-        experience. I enjoy running <span className="italic">my business</span>,
-        focusing on <span className="underline">building and delivering</span>{" "}
-        web development solutions.
+        , with over <span className="font-bold">3 years</span> of UIX, cloud,
+        and web experience. I enjoy running{" "}
+        <span className="italic">my business</span>, focusing on{" "}
+        <span className="underline">building and delivering</span> web
+        development solutions.
       </motion.h1>
 
       <motion.div
