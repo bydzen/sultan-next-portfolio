@@ -36,7 +36,7 @@ export const experiencesData = [
     title: "Rayatiga",
     location: "Magelang, ID",
     description:
-      "I am establishing an SME business (Rayatiga) that operates in the field of information technology, particularly specializing in web development.",
+      "I am establishing an SME business called Rayatiga, which operates in the field of information technology, with a particular specialization in web development.",
     icon: React.createElement(LuBriefcase),
     date: "2019 - present",
   },
@@ -44,7 +44,7 @@ export const experiencesData = [
     title: "Telkom University",
     location: "Bandung, ID",
     description:
-      "I graduated after 3.5 years of studying IT. I immediately found a job as a web developer.",
+      "I graduated after 3.5 years of studying IT and immediately found a job as a web developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2019 - 2023",
   },
@@ -52,7 +52,7 @@ export const experiencesData = [
     title: "PT. Breef Digital Indonesia",
     location: "Yogyakarta, ID",
     description:
-      "I worked as a web developer until present. I also upskilled to the full stack development.",
+      "I have been working as a web developer up to the present. I have also upskilled to full stack development.",
     icon: React.createElement(LuBuilding),
     date: "2023 - present",
   },
